@@ -222,3 +222,16 @@ a:hover {
 }
 
 /* Slideshow css end */
+
+/* footer */
+.bottom_footer {
+    background-color: #282828;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #282828;
+    width: 100%;
+    z-index: 2;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #9ea1a5;
+}

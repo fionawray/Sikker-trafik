@@ -44,7 +44,7 @@ li {
 a {
     font-size: 16px;
     text-transform: uppercase;
-    color: #5c5c5c;
+    color: #ffffff;
     text-decoration: none;
     padding: 0px 14px 0px 14px;
 }
@@ -106,6 +106,21 @@ a:hover {
 #side_menu #menuknap {
     position: absolute;
     left: 85vw;
+}
+
+@media only screen and (min-width: 1000px) {
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
 }
 
 /*menu færdig*/

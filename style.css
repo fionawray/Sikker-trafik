@@ -1,5 +1,7 @@
 body {
     background-color: #434b59;
+    margin: 0;
+
 }
 
 h1 {
@@ -10,8 +12,10 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
-header {
-    background-color: #282828;
+#side_menu {
+    padding: 10px 16px;
+    background: #282828;
+    color: #f1f1f1;
 }
 
 #menu_billede {
@@ -76,7 +80,7 @@ a:hover {
 
 /* visited link */
 #side_menu header nav a:visited {
-    color: #000000;
+    color: #ffffff;
 }
 
 /* mouse over link */

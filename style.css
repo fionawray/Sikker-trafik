@@ -20,8 +20,10 @@ p {
     flex-wrap: wrap;
     background-color: #282828;
     width: 100%;
-    position: sticky;
+    position: fixed;
+    z-index: 2;
     justify-content: space-around;
+
 }
 
 #menu_billede {

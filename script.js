@@ -94,3 +94,24 @@ function showSlides(n) {
     timer = setTimeout(
         showSlidesWrapper, 3300); // Change image every 3.3 seconds
 }
+
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function () {
+    fastNav()
+};
+
+// Get the navbar
+var navbar = document.getElementById("side_menu");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function fastNav() {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+    } else {
+        navbar.classList.remove("sticky");
+    }
+}

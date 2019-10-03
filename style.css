@@ -12,7 +12,10 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
-header {
+
+#side_menu {
+    padding: 10px 16px;
+    color: #f1f1f1;
     display: flex;
     flex-wrap: wrap;
     background-color: #282828;
@@ -21,17 +24,11 @@ header {
     justify-content: space-around;
 }
 
-#side_menu {
-    padding: 10px 16px;
-    background: #282828;
-    color: #f1f1f1;
-}
-
 #menu_billede {
     position: absolute;
     left: 0vw;
     margin: 0;
-    top: 18px;
+    top: 6px;
 }
 
 #menu_billede:hover {

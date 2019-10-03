@@ -98,20 +98,20 @@ function showSlides(n) {
 
 // When the user scrolls the page, execute myFunction
 window.onscroll = function () {
-    fastNav()
+    fastHeader()
 };
 
-// Get the navbar
-var navbar = document.getElementById("side_menu");
+// Get the header
+var header = document.getElementById("side_menu");
 
 // Get the offset position of the navbar
-var sticky = navbar.offsetTop;
+var sticky = header.offsetTop;
 
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function fastNav() {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function fastHeader() {
+    if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
     } else {
-        navbar.classList.remove("sticky");
+        header.classList.remove("sticky");
     }
 }

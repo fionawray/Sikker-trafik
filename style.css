@@ -296,3 +296,18 @@ a:hover {
     justify-content: center;
     margin-bottom: 30px;
 }
+
+.media_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    font-size: 25px;
+    margin: 1rem 1rem 0rem 1rem;
+    color: #57596a;
+}
+
+.fa {
+    width: 50px;
+}

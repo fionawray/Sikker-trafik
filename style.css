@@ -241,64 +241,23 @@ a:hover {
 
 /* Slideshow css end */
 
+
+/* section 1 */
+
 #more {
     display: none;
 }
 
-/*
-.collapsible {
-    background-color: #777;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
+#section_1 {
+    margin: 1em;
+    padding: 1em;
 }
 
-.active,
-.collapsible:hover {
-    background-color: #555;
-}
-
-.content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
-}
-*/
-
-/* section 1 */
-/*
-#section1 {
-    margin: 0vw 1vw;
-    background-position: 50% 0%;
-}
-
-#section1 p {
+#section_1 p {
     color: white;
 }
 
-.sectionwrapper_1 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.col1 {
-    flex-grow: 1;
-    flex-basis: 100px;
-    padding: 2vw;
-    text-align: left;
-    line-height: 26px;
-    margin-left: 20vw;
-}
-*/
-
-#info .sectionwrapper {
+*/ #info .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
     background-color: white;
@@ -322,6 +281,7 @@ a:hover {
     font-size: 25px;
 }
 
+/*
 #uheld {
     flex-grow: 1;
     flex-basis: 200px;
@@ -337,6 +297,7 @@ a:hover {
     border-radius: 1%;
     margin-top: 1vw;
 }
+*/
 
 /* footer */
 #bottom_footer {

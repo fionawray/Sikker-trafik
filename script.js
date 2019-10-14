@@ -141,7 +141,7 @@ function myFunction() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.innerHTML = "Vis mindre";
         moreText.style.display = "inline";
     }
 }

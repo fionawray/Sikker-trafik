@@ -244,14 +244,14 @@ a:hover {
 
 /* Slideshow css end */
 
-
+/* Slogan */
 .item-1 {
-    top: 2em;
+    top: 1rem;
 
     width: 60%;
     position: relative;
 
-    font-size: 2em;
+    font-size: 2rem;
 
     animation-duration: 8s;
     animation-timing-function: ease-in-out;
@@ -279,6 +279,8 @@ a:hover {
         opacity: 0;
     }
 }
+
+/*Slogan end */
 
 
 

@@ -7,12 +7,12 @@ body {
 h1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
-
     letter-spacing: 1px;
 }
 
 p {
     font-family: 'Work Sans', sans-serif;
+    color: #373d46;
 }
 
 #side_menu {
@@ -289,6 +289,23 @@ a:hover {
 
 .content {
     background-color: #434b59;
+}
+
+#section_1 h1 {
+    color: #373d46;
+}
+
+#myBtn {
+    font-size: 15px;
+    background-color: transparent;
+    text-decoration: none;
+    color: #3f3fbf;
+    border: none;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    color: #373d46;
 }
 
 #more {

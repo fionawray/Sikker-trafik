@@ -353,9 +353,15 @@ button:hover {
     flex-grow: 1;
 }
 
+#info h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
 #info .icons {
     font-size: 60px;
-    color: aqua;
+    color: black;
+    text-align: center;
 }
 
 /* section_1 end */

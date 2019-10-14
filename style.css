@@ -244,14 +244,43 @@ a:hover {
 
 /* Slideshow css end */
 
-.slogan {
-    background-color: #7E858F;
-    padding: 4em;
+
+.item-1 {
+    top: 2em;
+
+    width: 60%;
+    position: relative;
+
+    font-size: 2em;
+
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-name: anim-1;
 }
 
-.slogan h1 {
-    text-align: center;
+@keyframes anim-1 {
+
+    0%,
+    8.3% {
+        left: -40%;
+        opacity: 0;
+    }
+
+    8.3%,
+    90% {
+        left: 25%;
+        opacity: 1;
+    }
+
+    90%,
+    100% {
+        left: 110%;
+        opacity: 0;
+    }
 }
+
+
 
 
 /* section_1 */

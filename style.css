@@ -6,10 +6,13 @@ body {
 
 h1 {
     color: white;
+    font-family: 'Montserrat', sans-serif;
+
+    letter-spacing: 1px;
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 #side_menu {
@@ -241,6 +244,15 @@ a:hover {
 
 /* Slideshow css end */
 
+.slogan {
+    background-color: #7E858F;
+    padding: 4em;
+}
+
+.slogan h1 {
+    text-align: center;
+}
+
 
 /* section_1 */
 
@@ -254,7 +266,6 @@ a:hover {
 
 button {
     background-color: #ffffff;
-    border: none;
     border-radius: 2px;
     font-size: 16px;
 }
@@ -273,7 +284,7 @@ button:hover {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    background: #ffffff;
+    background: #e3e3e3;
     margin: 30px;
     padding: 25px;
 }

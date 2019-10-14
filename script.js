@@ -137,7 +137,7 @@ function myFunction() {
 
     if (dots.style.display === "none") {
         dots.style.display = "inline";
-        btnText.innerHTML = "Read more";
+        btnText.innerHTML = "Læs mere";
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";

@@ -241,8 +241,38 @@ a:hover {
 
 /* Slideshow css end */
 
-/* section 1 */
+#more {
+    display: none;
+}
 
+/*
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+*/
+
+/* section 1 */
+/*
 #section1 {
     margin: 0vw 1vw;
     background-position: 50% 0%;
@@ -266,6 +296,7 @@ a:hover {
     line-height: 26px;
     margin-left: 20vw;
 }
+*/
 
 #info .sectionwrapper {
     display: flex;

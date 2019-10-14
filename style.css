@@ -245,6 +245,11 @@ a:hover {
 /* Slideshow css end */
 
 /* Slogan */
+
+.slogan {
+    overflow: hidden;
+}
+
 .item-1 {
     top: 1rem;
 
@@ -375,7 +380,7 @@ button:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
-#info p{
+#info p {
     color: #434b59;
 }
 

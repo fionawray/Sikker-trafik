@@ -262,6 +262,29 @@ a:hover {
     margin-left: 20vw;
 }
 
+.sectionwrapper_2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #414B5A;
+}
+
+.sectionwrapper_2 #col {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 200px;
+    margin: 1vw;
+    padding: 0.5vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionwrapper_2 p {
+    color: #28292C;
+    font-size: 0.8rem;
+    margin: 10px;
+    background-color: #ECEDEE;
+}
+
 #uheld {
     flex-grow: 1;
     flex-basis: 200px;

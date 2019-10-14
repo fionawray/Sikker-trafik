@@ -370,8 +370,19 @@ button:hover {
     flex-grow: 1;
 }
 
+#info h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#info p{
+    color: #434b59;
+}
+
 #info .icons {
-    font-size: 25px;
+    font-size: 60px;
+    color: black;
+    text-align: center;
 }
 
 /* section_1 end */

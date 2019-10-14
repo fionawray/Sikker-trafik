@@ -382,6 +382,7 @@ button:hover {
 
 #info p {
     color: #434b59;
+    line-height: 1.4;
 }
 
 #info .icons {

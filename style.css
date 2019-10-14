@@ -351,7 +351,8 @@ button:hover {
 }
 
 #info .icons {
-    font-size: 25px;
+    font-size: 60px;
+    color: aqua;
 }
 
 /* section_1 end */

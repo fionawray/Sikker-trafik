@@ -333,6 +333,9 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     background-color: white;
+    background-image: url(img/trafik.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #info .col {

@@ -358,6 +358,10 @@ button:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
+#info p{
+    color: #434b59;
+}
+
 #info .icons {
     font-size: 60px;
     color: black;

@@ -336,6 +336,7 @@ button:hover {
     background-image: url(img/trafik.jpg);
     background-size: cover;
     background-attachment: fixed;
+    padding: 4rem;
 }
 
 #info .col {

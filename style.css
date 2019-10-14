@@ -156,6 +156,11 @@ a:hover {
 }
 
 /* Slideshow container */
+
+.slideshow {
+    background-color: aliceblue;
+}
+
 .slideshow-container {
     max-width: 1000px;
     position: relative;
@@ -262,27 +267,28 @@ a:hover {
     margin-left: 20vw;
 }
 
-.sectionwrapper_2 {
+#info .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
-    background-color: #414B5A;
+    background-color: white;
 }
 
-.sectionwrapper_2 #col {
-    display: flex;
+#info .col {
+    flex-basis: 250px;
     flex-grow: 1;
-    flex-basis: 200px;
-    margin: 1vw;
-    padding: 0.5vw;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: #ECEDEE;
+    margin: 1em;
+    padding: 1em;
 }
 
-.sectionwrapper_2 p {
-    color: #28292C;
-    font-size: 0.8rem;
-    margin: 10px;
-    background-color: #ECEDEE;
+#info .top {
+    flex-grow: 1;
+}
+
+.icons #info {
+    font-size: 25px;
 }
 
 #uheld {

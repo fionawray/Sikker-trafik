@@ -366,6 +366,12 @@ button:hover {
     flex-wrap: wrap;
 }
 
+.content {
+    background-image: url(img/_m_v_-ZxQE-mbf9_s-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 #section_1 .col {
     flex-basis: 300px;
     flex-grow: 1;

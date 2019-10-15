@@ -381,6 +381,10 @@ button:hover {
     padding: 1em;
 }
 
+#section_1 h1 {
+    text-align: center;
+}
+
 #section_1 p {
     color: #373d46;
     line-height: 20px;

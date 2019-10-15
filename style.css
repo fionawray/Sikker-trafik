@@ -321,6 +321,8 @@ a:hover {
     }
 }
 
+/* Intro end */
+
 
 /* section_1 */
 
@@ -380,7 +382,8 @@ button:hover {
 }
 
 #section_1 p {
-    color: #282828;
+    color: #373d46;
+    line-height: 20px;
 }
 
 #info .sectionwrapper {

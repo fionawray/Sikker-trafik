@@ -287,7 +287,34 @@ a:hover {
 
 /*Slogan end */
 
+/* INTRO */
 
+#intro {
+    background-color: #e3e3e3;
+}
+
+#intro h1 {
+    text-align: center;
+    padding: 3rem;
+    margin: 2rem;
+    color: #373d46;
+}
+
+#intro p {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 3rem;
+}
+
+#intro .video {
+    padding: 2rem;
+    text-align: center;
+}
+
+#intro .video iframe {
+    width: 60vw;
+    height: 50vh;
+}
 
 
 /* section_1 */

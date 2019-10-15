@@ -321,6 +321,8 @@ a:hover {
     }
 }
 
+/* Intro end */
+
 
 /* section_1 */
 
@@ -379,8 +381,13 @@ button:hover {
     padding: 1em;
 }
 
+#section_1 h1 {
+    text-align: center;
+}
+
 #section_1 p {
-    color: #282828;
+    color: #373d46;
+    line-height: 20px;
 }
 
 #info .sectionwrapper {
@@ -414,6 +421,7 @@ button:hover {
 
 #info p {
     color: #434b59;
+    font-family: 'Work Sans', sans-serif;
     line-height: 1.4;
 }
 

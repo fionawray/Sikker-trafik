@@ -390,6 +390,10 @@ button:hover {
     line-height: 20px;
 }
 
+#section_1 .bottom {
+    text-align: center;
+}
+
 #info .sectionwrapper {
     display: flex;
     flex-wrap: wrap;

@@ -296,24 +296,29 @@ a:hover {
 #intro h1 {
     text-align: center;
     padding: 3rem;
-    margin: 2rem;
     color: #373d46;
 }
 
 #intro p {
     text-align: center;
     font-size: 1.2rem;
-    padding: 3rem;
 }
 
 #intro .video {
-    padding: 2rem;
     text-align: center;
+    padding-bottom: 3rem;
 }
 
 #intro .video iframe {
-    width: 60vw;
+    width: 85vw;
     height: 50vh;
+}
+
+@media only screen and (min-width: 600px) {
+    #intro .video iframe {
+        width: 75vw;
+        height: 40vw;
+    }
 }
 
 

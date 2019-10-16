@@ -314,6 +314,19 @@ a:hover {
     height: 50vh;
 }
 
+#video1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#video1 video {
+    width: 1000px;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 100px;
+}
+
 @media only screen and (min-width: 600px) {
     #intro .video iframe {
         width: 75vw;
@@ -527,4 +540,17 @@ p {
 .fa {
     width: 50px;
     z-index: 3;
+}
+
+
+/*Video portfolio*/
+#videoer {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+#videoer iframe,
+h1 {
+    margin: 20px;
 }

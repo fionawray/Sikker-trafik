@@ -366,12 +366,6 @@ button:hover {
     flex-wrap: wrap;
 }
 
-.content {
-    background-image: url(img/imthaz-ahamed-vVLrfAzmWYw-unsplash.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 #section_1 .col {
     flex-basis: 300px;
     flex-grow: 1;
@@ -398,6 +392,19 @@ button:hover {
 
 #section_1 .bottom {
     text-align: center;
+}
+
+figure a {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+figcaption {
+    margin: 1rem;
 }
 
 #info .sectionwrapper {
